@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A64D93A4-1425-44D4-8D3C-A21BB9BC4275}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="game_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game_menu.Designer.cs">
+      <DependentUpon>game_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="level_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level_1.Designer.cs">
+      <DependentUpon>level_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game_menu.resx">
+      <DependentUpon>game_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level_1.resx">
+      <DependentUpon>level_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8a7f22bb-17dd-470b-ba96-b4a212e8ab64.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8a7f22bb-17dd-470b-ba96-b4a212e8ab64-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q311_dwmk_220204.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_Pngtree_play_button_for_game_vector_11130437-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_Pngtree_play_button_for_game_vector_11130437-removebg-preview %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 17, 2025, 12_05_40 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red and blue glowing smoke background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forj1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odcw_8di4_220204.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_exit_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_play_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forj-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c3836b5a-bb49-4167-9cb2-dab5420e4460.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forj-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c9146bc9-5b30-4fa0-aa68-c1871353128d.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 17, 2025, 02_22_01 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sea_4497531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass-leaves_4900340.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_1742629.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_1710812.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_4265326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b7apn1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f754a8f-74f2-405d-8b91-ee041e37f7cb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\igw3_wygx_210816.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6271267.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EjwZ.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_design__3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_design__3_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ideal_right_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ideal_left_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump-right-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump_left_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump_left_img1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump-right-img1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aea6d381edc299f37cba0b61d55af698.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf9a16511137d04344af3e7a1243a631.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\df49fa6c3b05b9a78ad0cb7e45c13816-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spider-14837_256.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d89b32d76edb57990c881208eb4adeae.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spider-14837_2561.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-7288_256.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying-14288_256.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cec349e2eac761f9e45fb2026b1e7b64.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38d77636be6b8d4364be5986d5799322.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
